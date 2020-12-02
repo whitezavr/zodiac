@@ -2,7 +2,6 @@
 *.o
 *.exe
 *.pro
-*.txt
 *.dll
 debug/
 release/
