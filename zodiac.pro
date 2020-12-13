@@ -25,24 +25,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
-    data_entry_wind.cpp \
-    data_display_wind.cpp \
     astrology.cpp \
     user_info_wizard.cpp
 
 HEADERS += \
-        mainwindow.h \
     declarations.h \
-    data_entry_wind.h \
-    data_display_wind.h \
     astrology.h \
     user_info_wizard.h
 
-FORMS += \
-        mainwindow.ui \
-    data_entry_wind.ui \
-    data_display_wind.ui
+FORMS +=
 
 RESOURCES += \
     media.qrc

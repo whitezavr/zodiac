@@ -1,4 +1,3 @@
-#include "mainwindow.h"
 #include <QApplication>
 #include <declarations.h>
 #include <user_info_wizard.h>
