@@ -21,7 +21,7 @@ public:
     QString defineZodiacName();
 
 public slots:
-    void receiveuserData(userData_t data);
+    //void receiveuserData(userData_t data);
     /* слот, принимающий сигнал о том, что нужно снова вызвать окно ввода данных пользователя */
     void receiveStartEndryWind();
 
@@ -32,8 +32,6 @@ private:
     Ui::MainWindow *ui;
     DataEntryWind *pDataEntryWind;
     DataDisplayWind *pDataDisplayWind;
-
-    userData_t userData;
 };
 
 #endif // MAINWINDOW_H

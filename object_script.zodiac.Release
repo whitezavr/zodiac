@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\data_entry_wind.o
+./release\data_display_wind.o
+./release\astrology.o
+./release\user_info_wizard.o
+./release\qrc_media.o
+./release\moc_mainwindow.o
+./release\moc_data_entry_wind.o
+./release\moc_data_display_wind.o
+./release\moc_user_info_wizard.o
+);

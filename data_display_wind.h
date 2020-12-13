@@ -24,13 +24,11 @@ private slots:
 
 private:
     Ui::DataDisplayWind *ui;
-    userData_t userData;
-    /*hash, где ключ - имя знака зодиака, значение - его характеристика */
-    QHash <QString, QString> zodiacCharacter;
+
 
 public:
     /* устанавливает характеристики пользователя в окне вывода данных */
-    void setUserData(userData_t data);
+    //void setUserData(userData_t data);
 };
 
 #endif // DATA_DISPLAY_WIND_H

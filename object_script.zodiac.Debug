@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\data_entry_wind.o
+./debug\data_display_wind.o
+./debug\astrology.o
+./debug\user_info_wizard.o
+./debug\qrc_media.o
+./debug\moc_mainwindow.o
+./debug\moc_data_entry_wind.o
+./debug\moc_data_display_wind.o
+./debug\moc_user_info_wizard.o
+);

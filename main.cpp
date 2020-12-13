@@ -1,11 +1,25 @@
 #include "mainwindow.h"
 #include <QApplication>
+#include <declarations.h>
+#include <user_info_wizard.h>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
+    QApplication app(argc, argv);
 
-    return a.exec();
+
+#ifndef QT_NO_TRANSLATION
+    QString translatorFileName = QLatin1String("qtbase_");
+    translatorFileName += QLocale::system().name();
+    QTranslator *translator = new QTranslator(&app);
+    if (translator->load(translatorFileName, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
+        app.installTranslator(translator);
+#endif
+
+    UserInfoWizard *userInfoWizard;
+    userInfoWizard = new UserInfoWizard;
+    userInfoWizard->exec();
+
+    return app.exec();
 }

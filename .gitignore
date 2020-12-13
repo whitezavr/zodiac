@@ -1,7 +1,0 @@
-*.a
-*.o
-*.exe
-*.pro
-*.dll
-debug/
-release/

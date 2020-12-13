@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/pictures">
+        <file>zodiacBackgroundLeft.jpg</file>
+    </qresource>
+</RCC>
